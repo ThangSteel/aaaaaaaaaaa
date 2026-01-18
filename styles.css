@@ -1,11 +1,11 @@
-    :root {
+:root {
             --primary-color: #8b0000;
             --accent-color: #ff0000;
             --dark-overlay: rgba(0,0,0,0.7);
         }
 
         body { 
-            font-family: 'Roboto', sans-serif; 
+            font-family: Arial, Helvetica, sans-serif; 
             margin: 0; 
             background: #f4f6f9; 
             color: #333;
@@ -13,9 +13,8 @@
 
         .banner {
             height: 45vh;
-            background: linear-gradient(var(--dark-overlay), var(--dark-overlay)), url("images/paner.jpg") no-repeat center center;
+            background: linear-gradient(var(--dark-overlay), var(--dark-overlay)), #222;
             background-size: cover;
-            background-color: #222;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -27,7 +26,7 @@
         }
 
         .banner h1 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Arial Black', Gadget, sans-serif;
             font-size: 3.2rem;
             margin: 0;
             text-transform: uppercase;
@@ -209,53 +208,3 @@
             .footer-section h3, .info-row { justify-content: center; }
             .footer-section:nth-child(2), .footer-section:nth-child(3) { align-items: center; }
         }
-        .quiz { 
-            margin: 20px 0; 
-            padding: 20px; 
-            background-color: #f8f9fa; 
-            border-radius: 8px; 
-        }
-        .quiz h3 { 
-            color: #007bff; 
-        }
-        .quiz button { 
-            background-color: #007bff; 
-            color: white; 
-            border: none; 
-            padding: 10px 20px; 
-            border-radius: 5px; 
-            cursor: pointer; 
-            margin: 5px; 
-        }
-        .quiz button:hover { 
-            background-color: #0056b3; 
-        }
-        .result { 
-            margin-top: 10px; 
-            font-weight: bold; 
-        }
-.slideshow {
-  width: 800px;            
-  height: 300px;
-  margin: 0 auto;            
-  position: relative;         
-  overflow: hidden;           
-  background: #000;         
-}
-
-.slideshow img {
-  width: 100%;              
-  height: 100%;            
-  object-fit: cover;          
-  object-position: center;   
-  position: absolute;         
-  top: 0;
-  left: 0;
-  opacity: 0;                
-  transition: opacity 1s ease;
-}
-
-.slideshow img.active {
-  opacity: 1;
-}
-        

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cộng Đồng Thể Thao</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>  
+<body>
+<header class="banner">
+    <h1>CỘNG ĐỒNG THỂ THAO</h1>
+    <p>NƠI ĐAM MÊ RỰC CHÁY - KẾT NỐI TINH THẦN THỂ THAO</p>
+</header>
+<div class="slogan-container">
+    <div class="slogan-card">
+        <h2>Năng động</h2>
+        <p>Thúc đẩy phong trào, hoạt động năng nổ và hiệu quả trong mọi cuộc chơi.</p>
+    </div>
+    <div class="slogan-card">
+        <h2>Đam mê</h2>
+        <p>Cháy hết mình với tinh thần thể thao bất diệt và tình yêu vô tận.</p>
+    </div>
+    <div class="slogan-card">
+        <h2>Tỏa sáng</h2>
+        <p>Nỗ lực không ngừng để vươn tới những đỉnh cao và thành tích xứng đáng.</p>
+    </div>
+</div>
+	<h2>Khái quát về bóng chuyền</h2>
+	        <div class="slideshow">
+            <img src="images/bc1.jpg" alt="Volleyball Game" class="active">
+            <img src="images/bc2.jpg" alt="Olympic Volleyball">
+            <img src="images/bc3.jpg" alt="Beach Volleyball">
+        </div>
+	<p>Bóng chuyền là môn thể thao đồng đội, trong đó sự phối hợp giữa các vị trí đóng vai trò quyết định. Môn thể thao này giúp phát triển sức bật, sức mạnh cơ tay và khả năng phán đoán tình huống. Bóng chuyền còn rèn luyện tinh thần đồng đội, tính kỷ luật và sự kiên trì. Mỗi pha chuyền, đỡ hay đập bóng đều đòi hỏi sự chính xác và ăn ý giữa các thành viên trong đội.</p>
+	    <p><strong>Lịch sử và Phát triển:</strong> Bóng chuyền được phát minh năm 1895 bởi William G. Morgan tại Mỹ, ban đầu gọi là "mintonette". Nó lan rộng qua Thế vận hội từ 1964. Ở Việt Nam, bóng chuyền nữ nổi tiếng với đội tuyển giành huy chương châu Á, góp phần nâng cao vị thế thể thao nữ giới.</p>
+        <p><strong>Quy tắc Cơ bản :</strong> Trận đấu gồm 2 đội, mỗi đội 6 cầu thủ trên sân hình chữ nhật chia lưới. Mục tiêu là đưa bóng qua lưới mà không để đối phương chạm đất. Điểm được ghi khi bóng chạm đất sân đối phương. Luật xoay vòng vị trí, không được chạm bóng 2 lần liên tiếp (trừ phát bóng), và giới hạn 3 chạm mỗi đội.</p>
+        <p><strong>Lợi ích Sức khỏe :</strong> Bóng chuyền phát triển sự nhanh nhẹn, sức bật, và phối hợp nhóm. Nó tăng cường hệ cơ xương khớp, cải thiện sự cân bằng, và giảm nguy cơ loãng xương. Tập luyện giúp tăng cường sức khỏe tinh thần qua teamwork, nhưng cần chú ý đến chấn thương cổ tay và đầu gối.</p>
+        <div class="quiz">
+            <h3>Quiz Nhanh: Bạn biết gì về Bóng chuyền?</h3>
+            <p>Câu hỏi: Bóng chuyền được phát minh vào năm nào?</p>
+            <button onclick="checkAnswer(1895, 1895)">1895</button>
+            <button onclick="checkAnswer(1895, 1964)">1964</button>
+            <button onclick="checkAnswer(1895, 1900)">1900</button>
+            <div class="result" id="result-bongchuyen"></div>
+        </div>
+
+	
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="footer-inner">
+                <h3>Thông tin liên lạc</h3>
+                <div class="info-row">📞 <b>Hotline:</b> 0123.456.789</div>
+                <div class="info-row">📧 <b>Email:</b> hotro@congdongthethao.vn</div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer-inner">
+                <h3>Liên kết nhanh</h3>
+                <div class="info-row">🌐 <b>Trang chính:</b> <a href="index.html">Cộng Đồng Thể Thao</a></div>
+                <div class="info-row">🚀 <b>Đăng kí:</b> <a href="Dang_ki.html">Tham gia ngay</a></div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer-inner">
+                <h3>Cộng tác viên</h3>
+                <div class="info-row">👤 Nguyễn Quốc Thái</div>
+                <div class="info-row">👤 Cao Văn Thắng</div>
+                <div class="info-row">👤 Lê Ngọc Phụng</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2026 12A2 Nhóm 4 | THPT Vĩnh Trạch
+    </div>
+</footer>
+		   <script>
+       
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            element.scrollIntoView({ behavior: 'smooth' });
+        
+            document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+            document.querySelector(`nav a[href="#${id}"]`).classList.add('active');
+        }
+
+    
+        const sections = document.querySelectorAll('section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+        sections.forEach(section => observer.observe(section));
+
+   
+        function startSlideshow(container) {
+            const images = container.querySelectorAll('img');
+            let currentIndex = 0;
+            setInterval(() => {
+                images[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].classList.add('active');
+            }, 3000); // Chuyển ảnh mỗi 3 giây
+        }
+        document.querySelectorAll('.slideshow').forEach(startSlideshow);
+
+
+        function checkAnswer(correctYear, selectedYear) {
+            const resultDiv = event.target.parentElement.querySelector('.result');
+            if (selectedYear === correctYear) {
+                resultDiv.textContent = 'Đúng! Bạn rất giỏi.';
+                resultDiv.style.color = 'green';
+            } else {
+                resultDiv.textContent = `Sai! Đáp án đúng là ${correctYear}.`;
+                resultDiv.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

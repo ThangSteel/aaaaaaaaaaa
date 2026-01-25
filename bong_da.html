@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cộng Đồng Thể Thao</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Bóng Đá - Cộng Đồng Thể Thao</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
 <header class="banner">
     <h1>CỘNG ĐỒNG THỂ THAO</h1>
-    <p>NƠI ĐAM MÊ RỰC CHÁY - KẾT NỐI TINH THẦN THỂ THAO</p>
+    <p>BÓNG ĐÁ - MÔN THỂ THAO VUA</p>
 </header>
+
 <div class="slogan-container">
     <div class="slogan-card">
         <h2>Năng động</h2>
@@ -27,25 +28,46 @@
         <p>Nỗ lực không ngừng để vươn tới những đỉnh cao và thành tích xứng đáng.</p>
     </div>
 </div>
-	<h2>Khái quát về bóng đá</h2>
-	    <div class="slideshow" style="text-align: center;">
-            <img src="images/banh.jpg" width="800" height="300" class="active">
-            <img src="images/bong.jpg" width="800" height="300"  alt="World Cup">
-            <img src="images/san.jpg" width="800" height="300 alt="Football Stadium">
+
+<main class="section-container">
+    <div class="sport-item">
+        <div class="sport-image">
+            <div class="slideshow">
+                <img src="images/banh.jpg" class="active">
+                <img src="images/bong.jpg">
+                <img src="images/san.jpg">
+            </div>
         </div>
-		<p>Bóng đá là môn thể thao đồng đội phổ biến nhất trên thế giới, đòi hỏi sự phối hợp nhịp nhàng giữa các cầu thủ. Môn thể thao này giúp phát triển thể lực, sức bền, tốc độ và tư duy chiến thuật. Ngoài ra, bóng đá còn rèn luyện tinh thần kỷ luật, ý chí vượt khó và tinh thần đoàn kết tập thể. Mỗi trận đấu không chỉ là cuộc so tài về kỹ năng mà còn là sự thể hiện bản lĩnh và tinh thần fair-play.</p>
-	    <p><strong>Lịch sử và Phát triển :</strong> Bóng đá có nguồn gốc từ Trung Quốc cổ đại (cuju) và châu Âu thế kỷ 19. FIFA thành lập năm 1904, và World Cup bắt đầu từ 1930. Ở Việt Nam, bóng đá phát triển mạnh từ thế kỷ 20, với đội tuyển quốc gia tham gia các giải châu Á, góp phần gắn kết cộng đồng và thúc đẩy tinh thần dân tộc.</p>
-        <p><strong>Quy tắc Cơ bản :</strong> Trận đấu gồm 2 đội, mỗi đội 11 cầu thủ, thi đấu trên sân cỏ hình chữ nhật. Mục tiêu là ghi bàn vào lưới đối phương bằng cách sút bóng. Thời gian 90 phút chia làm 2 hiệp, với luật offside, penalty, và trọng tài giám sát. Các vị trí chính: thủ môn, hậu vệ, tiền vệ, tiền đạo.</p>
-        <p><strong>Lợi ích Sức khỏe :</strong> Bóng đá tăng cường sức bền, phối hợp mắt-tay-chân, và sức mạnh cơ bắp. Nó cải thiện hệ hô hấp, tim mạch, và giúp giảm nguy cơ bệnh béo phì. Tuy nhiên, chấn thương như bong gân hay vỡ xương có thể xảy ra nếu không khởi động kỹ.</p>
-        <div class="quiz">
-            <h3>Quiz Nhanh: Bạn biết gì về Bóng đá?</h3>
-            <p>Câu hỏi: FIFA được thành lập vào năm nào?</p>
-            <button onclick="checkAnswer(1904, 1904)">1904</button>
-            <button onclick="checkAnswer(1904, 1930)">1930</button>
-            <button onclick="checkAnswer(1904, 1950)">1950</button>
-            <div class="result" id="result-bongda"></div>
+        <div class="sport-content">
+            <h3>Khái quát về bóng đá</h3>
+            <p>Bóng đá là môn thể thao đồng đội phổ biến nhất trên thế giới, đòi hỏi sự phối hợp nhịp nhàng giữa các cầu thủ.</p>
+            <p><strong>Lịch sử:</strong> FIFA được thành lập năm 1904 và World Cup bắt đầu từ năm 1930.</p>
+            <p><strong>Quy tắc:</strong> Trận đấu gồm 2 đội, mỗi đội 11 cầu thủ, thi đấu trên sân cỏ hình chữ nhật.</p>
         </div>
-	
+    </div>
+
+    <div class="sport-item reverse">
+        <div class="sport-image">
+            <img src="images/bongda.jpg" alt="Health">
+        </div>
+        <div class="sport-content">
+            <h3>Lợi ích sức khỏe</h3>
+            <ul class="soccer-list">
+                <li>Tăng cường sức bền và sức mạnh cơ bắp.</li>
+                <li>Cải thiện hệ hô hấp và tim mạch.</li>
+                <li>Giảm nguy cơ béo phì qua việc vận động liên tục.</li>
+            </ul>
+            <div class="quiz">
+                <h3>Quiz Nhanh</h3>
+                <p>FIFA được thành lập vào năm nào?</p>
+                <button onclick="checkAnswer(1904, 1904)">1904</button>
+                <button onclick="checkAnswer(1904, 1930)">1930</button>
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
 <footer>
     <div class="footer-content">
         <div class="footer-section">
@@ -55,15 +77,12 @@
                 <div class="info-row">📧 <b>Email:</b> hotro@congdongthethao.vn</div>
             </div>
         </div>
-
         <div class="footer-section">
             <div class="footer-inner">
                 <h3>Liên kết nhanh</h3>
                 <div class="info-row">🌐 <b>Trang chính:</b> <a href="index.html">Cộng Đồng Thể Thao</a></div>
-                <div class="info-row">🚀 <b>Đăng kí:</b> <a href="Dang_ki.html">Tham gia ngay</a></div>
             </div>
         </div>
-
         <div class="footer-section">
             <div class="footer-inner">
                 <h3>Cộng tác viên</h3>
@@ -73,57 +92,31 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        &copy; 2026 12A2 Nhóm 4 | THPT Vĩnh Trạch
-    </div>
+    <div class="footer-bottom">&copy; 2026 12A2 Nhóm 4 | THPT Vĩnh Trạch</div>
 </footer>
-	   <script>
-       
-        function scrollToSection(id) {
-            const element = document.getElementById(id);
-            element.scrollIntoView({ behavior: 'smooth' });
-        
-            document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-            document.querySelector(`nav a[href="#${id}"]`).classList.add('active');
+
+<script>
+    function startSlideshow(container) {
+        const images = container.querySelectorAll('img');
+        let currentIndex = 0;
+        setInterval(() => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }, 3000);
+    }
+    document.querySelectorAll('.slideshow').forEach(startSlideshow);
+
+    function checkAnswer(correct, selected) {
+        const resultDiv = event.target.parentElement.querySelector('.result');
+        if (selected === correct) {
+            resultDiv.textContent = 'Đúng! Bạn rất giỏi.';
+            resultDiv.style.color = 'green';
+        } else {
+            resultDiv.textContent = 'Sai rồi! Thử lại nhé.';
+            resultDiv.style.color = 'red';
         }
-
-    
-        const sections = document.querySelectorAll('section');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
-        sections.forEach(section => observer.observe(section));
-
-   
-        function startSlideshow(container) {
-            const images = container.querySelectorAll('img');
-            let currentIndex = 0;
-            setInterval(() => {
-                images[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex + 1) % images.length;
-                images[currentIndex].classList.add('active');
-            }, 3000); // Chuyển ảnh mỗi 3 giây
-        }
-        document.querySelectorAll('.slideshow').forEach(startSlideshow);
-
-
-        function checkAnswer(correctYear, selectedYear) {
-            const resultDiv = event.target.parentElement.querySelector('.result');
-            if (selectedYear === correctYear) {
-                resultDiv.textContent = 'Đúng! Bạn rất giỏi.';
-                resultDiv.style.color = 'green';
-            } else {
-                resultDiv.textContent = `Sai! Đáp án đúng là ${correctYear}.`;
-                resultDiv.style.color = 'red';
-            }
-        }
-    </script>
+    }
+</script>
 </body>
-
 </html>
-
-
